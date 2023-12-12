@@ -1,0 +1,19 @@
+.odd {
+    background-color: lightpink;
+    font-family:'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+#div_id_1 {
+    color: blue;
+    font-size: 36px;
+}
+
+.cooler_class {
+    font-size: 24px;
+}
+
+#div_id_2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
