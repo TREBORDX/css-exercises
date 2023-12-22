@@ -43,8 +43,7 @@ body {
 .header {
   font-size: 32px;
   font-weight: 900;
-  padding: 16px;
-  align-content: start;
+  padding-left: 16px;
   display: flex;
   align-items: center;
 }
@@ -61,16 +60,23 @@ body {
 
 .right {
   display: flex;
-  flex-grow: 1;
-  align-self: center;
+
   flex-wrap: wrap;
+  padding: 32px;
+  gap: 32px;
 }
 
 a {
   color: white ;
   text-decoration: none;
+  font-size: 24px;
 }
 ul {
   list-style: none;
   padding-left: 16px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
 }
