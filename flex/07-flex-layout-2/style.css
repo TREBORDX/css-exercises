@@ -27,3 +27,50 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.innercontainer {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
+  align-content: start;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  flex-grow: 1;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+a {
+  color: white ;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding-left: 16px;
+}
